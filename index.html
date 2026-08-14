@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مؤسسة همة للخيام والمظلات بجدة | بيوت شعر، ساندوتش بانل، سواتر ومظلات</title>
+    <meta name="description" content="مؤسسة همة للتصميم والتنفيذ بجدة (دارك همة) - متخصصون في بيع وتأجير الخيام الملكية، بيوت الشعر، غرف الساندوتش بانل، المظلات، السواتر، وتلبيس بديل الخشب بجدة وحي طيبة. اتصل الآن 0538535898">
+    <meta name="keywords" content="تأجير خيام جدة, بيع خيام جدة, بيوت شعر ملكية, مظلات وسواتر جدة, غرف ساندوتش بانل, بديل الخشب جدة, حي طيبة جدة, مقاولات عامة جدة, مؤسسة همة">
+    <meta name="author" content="مؤسسة همة للتصميم والتنفيذ">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph for Social Sharing & Messaging -->
+    <meta property="og:title" content="مؤسسة همة للخيام والمظلات بجدة - بيع وتأجير وترميم">
+    <meta property="og:description" content="حلول إنشائية متكاملة تشمل الخيام، المظلات، السواتر، البرجولات، الساندوتش بانل وبديل الخشب بأعلى جودة بجدة.">
+    <meta property="og:image" content="assets/images/bayt_shaar_ext.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_SA">
+
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org JSON-LD Structured Data for LocalBusiness & Google Maps -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GeneralContractor",
+      "name": "مؤسسة همة للتصميم والتنفيذ - دارك همة للخيام والمظلات",
+      "image": "assets/images/bayt_shaar_ext.png",
+      "@id": "https://himma-tents.vercel.app",
+      "url": "https://himma-tents.vercel.app",
+      "telephone": "+966538535898",
+      "email": "magdalqsmy@icloud.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7165 - حي طيبة, 23832 - 4594 حي طيبة",
+        "addressLocality": "جدة",
+        "addressRegion": "منطقة مكة المكرمة",
+        "postalCode": "23832",
+        "addressCountry": "SA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 21.7335,
+        "longitude": 39.1412
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.tiktok.com/@himah053"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header Navigation (Glassmorphism Navbar) -->
+    <header class="glass-nav sticky-header">
+        <div class="nav-container">
+            <a href="#" class="logo-area" aria-label="مؤسسة همة الصفحة الرئيسية">
+                <div class="logo-icon">
+                    <i class="fas fa-campground"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>مؤسسة همة</h1>
+                    <span>للخيام والمظلات والمقاولات</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#catalog" class="nav-link">المنتجات والخدمات</a></li>
+                    <li><a href="#calculator" class="nav-link">حاسبة التكلفة</a></li>
+                    <li><a href="#policies" class="nav-link">السياسات والضمان</a></li>
+                    <li><a href="#location" class="nav-link">موقعنا والتواصل</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Cart Trigger Button -->
+                <button class="cart-trigger-btn" id="cartTriggerBtn" onclick="toggleCartDrawer()" aria-label="عرض سلة الحجز والطلبات">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge-count" id="cartBadgeCount">0</span>
+                </button>
+
+                <a href="tel:+966538535898" class="btn btn-outline nav-phone-btn" aria-label="اتصل بنا تلفونياً">
+                    <i class="fas fa-phone"></i> <span>0538535898</span>
+                </a>
+                <a href="https://wa.me/966538535898?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%A4%D8%B3%D8%B3%D8%A9%20%D9%87%D9%85%D8%A9%D9%8F%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B me%D8%A7%D8%B1" target="_blank" rel="noopener" class="btn btn-emerald nav-wa-btn" aria-label="تواصل عبر الواتساب">
+                    <i class="fab fa-whatsapp"></i> <span>واتساب</span>
+                </a>
+                
+                <button class="mobile-toggle" id="mobileToggle" onclick="toggleMobileMenu()" aria-label="فتح القائمة الرئيسية">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="badge hero-badge">
+                        <i class="fas fa-map-marker-alt"></i> جدة - حي طيبة | متوفر على مدار اليوم
+                    </div>
+                    <h1 class="hero-title">
+                        رواد بيع وتأجير <span class="gradient-text">الخيام الملكية</span> والمظلات والساندوتش بانل بجدة
+                    </h1>
+                    <p class="hero-description">
+                        نقدم حلول إنشائية متكاملة تشمل تصاميم بيوت الشعر، المظلات، السواتر، البرجولات، الهناجر، وغرف الساندوتش بانل وتلبيس بديل الخشب بأعلى جودة وضمان معتمد.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#catalog" class="btn btn-gold btn-lg">
+                            <i class="fas fa-store"></i> تصفح المنتجات والخدمات
+                        </a>
+                        <a href="#calculator" class="btn btn-glass btn-lg">
+                            <i class="fas fa-calculator"></i> حاسبة التكلفة الفورية
+                        </a>
+                        <a href="https://wa.me/966538535898?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%A4%D8%B3%D8%B3%D8%A9%20%D9%87%D9%85%D8%A9%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%AD%D8%AC%D8%B2%20%D8%A3%D9%88%20%D8%A7%D8%B3%D8%AA%D8%A6%D8%AC%D8%A7%D8%B1%20%D8%AE%D9%8A%D9%85%D8%A9" target="_blank" rel="noopener" class="btn btn-emerald btn-lg">
+                            <i class="fab fa-whatsapp"></i> استأجر الآن عبر واتساب
+                        </a>
+                    </div>
+
+                    <!-- Trust Highlights Grid -->
+                    <div class="trust-grid">
+                        <div class="trust-item">
+                            <i class="fas fa-shield-alt text-gold"></i>
+                            <div>
+                                <strong>ضمان معتمد 10 سنوات</strong>
+                                <span>عوازل ومقومات عالية الجودة</span>
+                            </div>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-bolt text-gold"></i>
+                            <div>
+                                <strong>سرعة الفك والتركيب</strong>
+                                <span>تنفيذ احترافي خلال 24-48 ساعة</span>
+                            </div>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-hand-holding-usd text-gold"></i>
+                            <div>
+                                <strong>بيع وتأجير مرن</strong>
+                                <span>خيارات يومية، أسبوعية، وشهرية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card-featured glass-panel">
+                        <div class="visual-img-container">
+                            <img src="assets/images/bayt_shaar_ext.png" alt="خيمة ملكية بيت شعر خارجي جدة" width="600" height="400" loading="eager">
+                            <span class="badge-featured-tag">الأكثر طلباً بجدة</span>
+                        </div>
+                        <div class="visual-card-info">
+                            <h3>بيوت شعر ملكية وتأجير خيام مناسبات</h3>
+                            <p>عزل حراري ومائي 100% مع واجهات زجاجية وإضاءات مخفية</p>
+                            <div class="visual-price-row">
+                                <span class="price-val">إيجار يبدأ من 350 ر.س / يوم</span>
+                                <button onclick="openProductModal('bayt-shaar-ext')" class="btn btn-gold btn-sm">
+                                    <i class="fas fa-eye"></i> التفاصيل والحجز
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catalog Section -->
+        <section class="catalog-section" id="catalog">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <div class="badge">كتالوج المنتجات والخدمات</div>
+                    <h2 class="section-title">استكشف خيارات <span class="gradient-text">البيع والتأجير</span></h2>
+                    <p class="section-subtitle">نوفر تصاميم متعددة ومقاسات تناسب جميع الاحتياجات والمناسبات والمباني بجدة</p>
+                </div>
+
+                <!-- Category Filters -->
+                <div class="catalog-filter-bar">
+                    <button class="filter-btn active" onclick="filterCatalog('all', this)">
+                        <i class="fas fa-th-large"></i> الكل
+                    </button>
+                    <button class="filter-btn" onclick="filterCatalog('tents', this)">
+                        <i class="fas fa-campground"></i> خيام وبيوت شعر
+                    </button>
+                    <button class="filter-btn" onclick="filterCatalog('sandwich', this)">
+                        <i class="fas fa-door-closed"></i> غرف ساندوتش بانل
+                    </button>
+                    <button class="filter-btn" onclick="filterCatalog('wood', this)">
+                        <i class="fas fa-vector-square"></i> بديل الخشب
+                    </button>
+                    <button class="filter-btn" onclick="filterCatalog('screens', this)">
+                        <i class="fas fa-border-all"></i> سواتر ومظلات
+                    </button>
+                    <button class="filter-btn" onclick="filterCatalog('rental', this)">
+                        <i class="fas fa-clock"></i> منتجات التأجير
+                    </button>
+                </div>
+
+                <!-- Dynamic Catalog Grid -->
+                <div class="catalog-grid" id="catalogGrid">
+                    <!-- JavaScript will inject cards here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Cost Calculator Section -->
+        <section class="calculator-section" id="calculator">
+            <div class="section-container">
+                <div class="calc-card glass-panel">
+                    <div class="calc-header">
+                        <div class="badge"><i class="fas fa-calculator"></i> حاسبة التكلفة التقديرية</div>
+                        <h2>احسب تكلفة مشروعك أو حجزك فوراً</h2>
+                        <p>اختر نوع الخدمة والمساحة والمواصفات للحصول على تسعيرة تقديرية سريعة</p>
+                    </div>
+
+                    <div class="calc-grid">
+                        <div class="calc-inputs">
+                            <div class="input-group">
+                                <label for="calcCategory"><i class="fas fa-list"></i> اختر نوع المنتَج / الخدمة:</label>
+                                <select id="calcCategory" class="custom-select" onchange="calculateCost()">
+                                    <option value="tents">خيام وبيوت شعر ملكية</option>
+                                    <option value="sandwich">غرف وملاحق ساندوتش بانل</option>
+                                    <option value="wood">تلبيس أبواب وواجهات بديل الخشب</option>
+                                    <option value="screens">سواتر وتغطيات حماية</option>
+                                    <option value="awnings">مظلات محلات ومواقف حدائق</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="calcServiceType"><i class="fas fa-exchange-alt"></i> خيار الشراء أم الإيجار:</label>
+                                <select id="calcServiceType" class="custom-select" onchange="calculateCost()">
+                                    <option value="buy">شراء وتمليك وتنفيذ كامل</option>
+                                    <option value="rent">تأجير مؤقت (حسب الأيام)</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group" id="rentalDaysGroup" style="display: none;">
+                                <label for="calcRentalDays"><i class="fas fa-calendar-alt"></i> مدة الإيجار (بالأيام):</label>
+                                <input type="number" id="calcRentalDays" min="1" max="90" value="1" class="custom-input" oninput="calculateCost()">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="calcArea"><i class="fas fa-ruler-combined"></i> المساحة التقديرية (بالأمتار المربعة م²):</label>
+                                <div class="range-wrapper">
+                                    <input type="range" id="calcArea" min="12" max="300" value="30" class="custom-range" oninput="updateAreaValue(this.value)">
+                                    <span class="range-badge" id="calcAreaVal">30 م²</span>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <label><i class="fas fa-plus-circle"></i> الإضافات والمواصفات الخاصة:</label>
+                                <div class="checkbox-options">
+                                    <label class="check-item">
+                                        <input type="checkbox" id="optInsulation" onchange="calculateCost()">
+                                        <span>عزل حراري ومائي مزدوج (100%)</span>
+                                    </label>
+                                    <label class="check-item">
+                                        <input type="checkbox" id="optLighting" onchange="calculateCost()">
+                                        <span>إضاءات مخفية وشبكات LED ملكية</span>
+                                    </label>
+                                    <label class="check-item">
+                                        <input type="checkbox" id="optGlass" onchange="calculateCost()">
+                                        <span>واجهات زجاج سكوريت سحاب</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calc-result-box">
+                            <div class="result-inner">
+                                <span>التكلفة الإجمالية التقديرية</span>
+                                <div class="total-price-display" id="totalCalcPrice">13,500 ر.س</div>
+                                <p class="calc-disclaimer">* الأسعار شاملا الضمان والتركيب داخل نطاق مدينة جدة ومكة المكرمة.</p>
+                                
+                                <button class="btn btn-gold btn-block" onclick="sendCalcToWhatsApp()">
+                                    <i class="fab fa-whatsapp"></i> طلب عرض سعر رسمي عبر واتساب
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Policies & Guarantees Section -->
+        <section class="policies-section" id="policies">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <div class="badge">الشفافية والضمان</div>
+                    <h2 class="section-title">الشحن والسياسات <span class="gradient-text">وشروط الإيجار</span></h2>
+                    <p class="section-subtitle">حرصاً منا على تقديم أفضل خدمة لعملائنا بجدة، نلخص لكم أهم السياسات والمعايير</p>
+                </div>
+
+                <div class="policies-grid">
+                    <div class="policy-card glass-panel">
+                        <div class="policy-icon"><i class="fas fa-truck-loading"></i></div>
+                        <h3>الشحن والتوصيل والتركيب</h3>
+                        <p>نوفر خدمة التوصيل والتركيب السريع لجميع مناطق جدة ومكة المكرمة والجموم. تظهر تكلفة النقل والمدة المتوقعة قبل تأكيد الحجز حسب الحي والمسافة.</p>
+                    </div>
+
+                    <div class="policy-card glass-panel">
+                        <div class="policy-icon"><i class="fas fa-file-contract"></i></div>
+                        <h3>سياسة وشروط الإيجار</h3>
+                        <p>يجب إعادة المنتجات والخيام المؤجرة في الموعد المحدد وبالحالة السليمة التي تم استلامها بها. يتم فحص الخيمة عند الفك وضمان سلامة التجهيزات.</p>
+                    </div>
+
+                    <div class="policy-card glass-panel">
+                        <div class="policy-icon"><i class="fas fa-headset"></i></div>
+                        <h3>الدعم وخدمة العملاء</h3>
+                        <p>لأي استفسار حول توفر المنتجات أو مواعيد التوصيل أو المعاينة الميدانية في حي طيبة بجدة، يسعدنا تواصلكم المستمر قبل وبعد إتمام الحجز.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Contact Section -->
+        <section class="location-section" id="location">
+            <div class="section-container">
+                <div class="location-grid glass-panel">
+                    <div class="location-info">
+                        <div class="badge"><i class="fas fa-map-marked-alt"></i> موقعنا بجدة</div>
+                        <h2>مؤسسة همة للتصميم والتنفيذ</h2>
+                        <p class="loc-address">
+                            <i class="fas fa-map-pin text-gold"></i>
+                            <strong>العنوان المسجل:</strong> 7165 - حي طيبة, 23832 - 4594 حي طيبة, جدة JHWA7165, المملكة العربية السعودية
+                        </p>
+
+                        <div class="contact-details-list">
+                            <div class="c-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <span>رقم الهاتف للجوال:</span>
+                                    <a href="tel:+966538535898">0538535898</a>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <span>واتساب الخدمة المباشرة:</span>
+                                    <a href="https://wa.me/966538535898" target="_blank" rel="noopener">0538535898</a>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span>البريد الإلكتروني:</span>
+                                    <a href="mailto:magdalqsmy@icloud.com">magdalqsmy@icloud.com</a>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <i class="fab fa-tiktok"></i>
+                                <div>
+                                    <span>حساب تيك توك الرسمي:</span>
+                                    <a href="https://www.tiktok.com/@himah053" target="_blank" rel="noopener">@himah053</a>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <span>ساعات العمل:</span>
+                                    <strong>مفتوح متوفر على مدار اليوم (24/7)</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="loc-actions">
+                            <a href="https://maps.google.com/?q=21.7335,39.1412" target="_blank" rel="noopener" class="btn btn-gold">
+                                <i class="fas fa-directions"></i> فتح الموقع في خرائط جوجل
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="location-map">
+                        <div class="map-wrapper">
+                            <iframe 
+                                title="خريطة موقع مؤسسة همة بجدة"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3706.7766299105436!2d39.1412!3d21.7335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDQ0JzAwLjYiTiAzOcKwMDgnMjguMyJF!5e0!3m2!1sar!2ssa!4v1700000000000!5m2!1sar!2ssa" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Product Details & Booking Modal -->
+    <div class="modal-backdrop" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-container glass-panel">
+            <button class="modal-close" onclick="closeProductModal()" aria-label="إغلاق النافذة">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modalBodyContent">
+                <!-- JavaScript will populate modal content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide-Out Shopping Cart & Guest Checkout Drawer -->
+    <aside class="cart-drawer glass-panel" id="cartDrawer" aria-hidden="true">
+        <div class="drawer-header">
+            <h3><i class="fas fa-shopping-bag text-gold"></i> سلة طلبات الحجز والشراء</h3>
+            <button class="drawer-close" onclick="toggleCartDrawer()" aria-label="إغلاق السلة">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="drawer-body">
+            <div class="cart-items-list" id="cartItemsList">
+                <p class="empty-cart-msg">السلة فارغة حالياً. قم بإضافة منتجات أو خيام من الكتالوج.</p>
+            </div>
+
+            <!-- Guest Checkout Form -->
+            <div class="checkout-form-section" id="checkoutFormSection" style="display: none;">
+                <h4 class="form-title"><i class="fas fa-user-check text-gold"></i> معلومات الحجز كزائر (Guest Checkout)</h4>
+                
+                <div class="form-group">
+                    <label for="custName">اسم العميل بالكامل *</label>
+                    <input type="text" id="custName" placeholder="مثال: محمد الغامدي" class="custom-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="custPhone">رقم الجوال / الواتساب *</label>
+                    <input type="tel" id="custPhone" placeholder="05xxxxxxxx" class="custom-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="custDistrict">الحي والمنطقة بجدة *</label>
+                    <input type="text" id="custDistrict" placeholder="مثال: حي طيبة / أبحر / الحمدانية" class="custom-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="custDate">تاريخ التركيب أو الإيجار المفضل</label>
+                    <input type="date" id="custDate" class="custom-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="custPayment">طريقة الدفع المفضلة</label>
+                    <select id="custPayment" class="custom-select">
+                        <option value="الدفع عند الاستلام / المعاينة">الدفع عند الاستلام والمعاينة</option>
+                        <option value="تحويل بنكي مباشر">تحويل بنكي مباشر (حساب المؤسسة)</option>
+                        <option value="بطاقة مدى / ائتمان">بطاقة مدى / ائتمانية</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="drawer-footer" id="cartDrawerFooter">
+            <div class="cart-summary-rows">
+                <div class="c-row">
+                    <span>المجموع الفرعي:</span>
+                    <strong id="cartSubtotal">0 ر.س</strong>
+                </div>
+                <div class="c-row">
+                    <span>تقدير النقل والتركيب (جدة):</span>
+                    <strong id="cartShippingEst">مجاني / حسب الحي</strong>
+                </div>
+                <div class="c-row total-row">
+                    <span>الإجمالي التقديري:</span>
+                    <strong id="cartGrandTotal" class="gradient-text">0 ر.س</strong>
+                </div>
+            </div>
+
+            <div class="cart-actions-row">
+                <button class="btn btn-gold btn-block" id="checkoutSubmitBtn" onclick="submitGuestOrder()" disabled>
+                    <i class="fab fa-whatsapp"></i> إرسال الطلب وحجز المنتجات عبر واتساب
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-top-grid">
+                <div class="f-col logo-col">
+                    <div class="logo-area">
+                        <div class="logo-icon"><i class="fas fa-campground"></i></div>
+                        <div class="logo-text">
+                            <h3>مؤسسة همة</h3>
+                            <span>للخيام والمظلات والمقاولات</span>
+                        </div>
+                    </div>
+                    <p>المؤسسة الرائدة في تنفيذ وتأجير بيوت الشعر والخيام، الساندوتش بانل، بديل الخشب والمظلات بجدة وحي طيبة.</p>
+                </div>
+
+                <div class="f-col">
+                    <h4>روابط السريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#catalog">كتالوج الخيام والمنتجات</a></li>
+                        <li><a href="#calculator">حاسبة التكلفة</a></li>
+                        <li><a href="#policies">الشحن والتوصيل والسياسات</a></li>
+                        <li><a href="#location">موقعنا في خرائط جوجل</a></li>
+                    </ul>
+                </div>
+
+                <div class="f-col">
+                    <h4>الخدمات والمنتجات</h4>
+                    <ul>
+                        <li><a href="#catalog">تأجير خيام بيوت الشعر الملكية</a></li>
+                        <li><a href="#catalog">غرف ساندوتش بانل للأسطح والملاحق</a></li>
+                        <li><a href="#catalog">تلبيس بوابات وأبواب بديل الخشب</a></li>
+                        <li><a href="#catalog">سواتر ومظلات السيارات والمتاجر</a></li>
+                    </ul>
+                </div>
+
+                <div class="f-col">
+                    <h4>التواصل السريع بجدة</h4>
+                    <p><i class="fas fa-phone text-gold"></i> 0538535898</p>
+                    <p><i class="fas fa-envelope text-gold"></i> magdalqsmy@icloud.com</p>
+                    <p><i class="fas fa-map-marker-alt text-gold"></i> حي طيبة - جدة - المملكة العربية السعودية</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 جميع الحقوق محفوظة لـ <strong>مؤسسة همة للتصميم والتنفيذ (دارك همة)</strong> | تصميم وتطوير متكامل جاهز للعرض على خرائط جوجل.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript Code -->
+    <script src="main.js"></script>
+</body>
+</html>

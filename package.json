@@ -1,0 +1,25 @@
+{
+  "name": "himma-tents-website",
+  "version": "1.0.0",
+  "description": "الموقع الإلكتروني الرسمي لمؤسسة همة للتصميم والتنفيذ والخيام والمظلات بجدة",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "deploy": "npx vercel --prod"
+  },
+  "keywords": [
+    "خيام",
+    "مظلات",
+    "جدة",
+    "حي طيبة",
+    "ساندوتش بانل",
+    "بيوت شعر",
+    "تأجير خيام"
+  ],
+  "author": "مؤسسة همة للتصميم والتنفيذ",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
