@@ -17,7 +17,7 @@ const productsData = [
         rental3DaysPrice: 900,
         rentalWeeklyPrice: 1800,
         isRentalAvailable: true,
-        image: 'assets/images/bayt_shaar_ext.png',
+        image: './assets/images/bayt_shaar_ext.png',
         sizes: ['4 × 6 متر (سعة 10-15 شخص)', '5 × 8 متر (سعة 20-30 شخص)', '6 × 12 متر (مناسبات كبرى)'],
         features: [
             'سعة تقريبية: 10 - 15 شخصاً',
@@ -36,7 +36,7 @@ const productsData = [
         priceText: 'ابتداءً من 18,000 ر.س (بيع وتنفيذ)',
         basePrice: 18000,
         isRentalAvailable: false,
-        image: 'assets/images/sandwich_panel.png',
+        image: './assets/images/sandwich_panel.png',
         sizes: ['3 × 4 متر (غرفة حارس/سائق)', '4 × 6 متر (ملحق سطح راقي)', '6 × 8 متر (مستودع أو مكتب موقع)'],
         features: [
             'عزل حراري ومائي فائق 100%',
@@ -54,7 +54,7 @@ const productsData = [
         priceText: 'ابتداءً من 10,000 ر.س (حسب الواجهة)',
         basePrice: 10000,
         isRentalAvailable: false,
-        image: 'assets/images/wpc_gate.png',
+        image: './assets/images/wpc_gate.png',
         sizes: ['تلبيس بوابة رئيسية 3×3.5م', 'تلبيس واجهة مدخل فيلا', 'سواتر جدارية بديل الخشب بالمتر'],
         features: [
             'مقاوم تماماً للشمس والحرارة الرطوبة',
@@ -75,7 +75,7 @@ const productsData = [
         rentalDailyPrice: 150,
         rental3DaysPrice: 400,
         rentalWeeklyPrice: 850,
-        image: 'assets/images/screens.png',
+        image: './assets/images/screens.png',
         sizes: ['سواتر ارتفاع 2 متر', 'سواتر ارتفاع 3 متر', 'تغليف كامل لأسوار الفلل'],
         features: [
             'خصوصية 100% ورؤية معتمة من الخارج',
@@ -96,7 +96,7 @@ const productsData = [
         rentalDailyPrice: 200,
         rental3DaysPrice: 500,
         rentalWeeklyPrice: 1000,
-        image: 'assets/images/store_awnings.png',
+        image: './assets/images/store_awnings.png',
         sizes: ['مظلة متحركة 3×2 متر', 'مظلة ثابتة نص دائرية', 'مظلات مواقف سيارات مزدوجة'],
         features: [
             'تظليل وحماية 100% من أشعة الشمس',
@@ -114,7 +114,7 @@ const productsData = [
         priceText: 'حسب التصميم والمساحة (ابتداءً من 45,000 ر.س)',
         basePrice: 45000,
         isRentalAvailable: false,
-        image: 'assets/images/bayt_shaar_int.png',
+        image: './assets/images/bayt_shaar_int.png',
         sizes: ['تأثيث مجلس 4×6م', 'تأثيث مجلس ملكي 6×10م', 'تجهيز كامل مع مشب رخام'],
         features: [
             'جلسات ومساند سدو ملكية مريحة جداً',
